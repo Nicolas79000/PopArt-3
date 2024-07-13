@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop&Art</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Pop&Art Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#products">Produits</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Bienvenue chez Pop&Art</h1>
+        <p>Découvrez des objets de collection artisanaux inspirés de la pop culture.</p>
+        <img src="presentation.jpg" alt="Présentation de Pop&Art">
+    </section>
+
+    <section id="products">
+        <h2>Nos produits phares</h2>
+        <div class="product-gallery">
+            <div class="product">
+                <img src="product1.jpg" alt="Produit 1">
+                <p>Description du produit 1</p>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Produit 2">
+                <p>Description du produit 2</p>
+            </div>
+            <!-- Ajouter d'autres produits ici -->
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Actualités</h2>
+        <article>
+            <h3>Nouveau produit disponible</h3>
+            <p>Détails sur le nouveau produit...</p>
+        </article>
+        <!-- Ajouter d'autres articles ici -->
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="/submit" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Suivez-nous :</p>
+        <a href="https://www.facebook.com">Facebook</a>
+        <a href="https://www.twitter.com">Twitter</a>
+        <a href="https://www.instagram.com">Instagram</a>
+        <p>&copy; 2023 Pop&Art. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
